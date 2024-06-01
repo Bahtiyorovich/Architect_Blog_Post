@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+  background-image: url('./assets/fon.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.author__fon {
+  background-image: url('./assets/user.png');
+  background-repeat: no-repeat;
+  background-size: 43%;
+  background-position: right bottom;
+}
+
+.navbar-scroll {
+  background-color: rgb(8, 73, 73, 0.95);
+  padding: 15px;
+}
