@@ -4,7 +4,7 @@ import { FaLongArrowAltRight, FaFacebookF, FaTwitter, FaLinkedinIn } from "react
 
 const Home = () => {
   return (
-    <div className='h-screen pt-10 flex items-center justify-start pl-52 py-20'>
+    <div id="/" className='h-screen pt-10 flex items-center justify-start pl-52 py-20'>
       <div className='w-3/4 h-1/2'>
         <div className='relative h-10'>
           <Chip className='absolute w-[90px] h-8 pl-4 capitalize text-[14px] bg-teal-900' value="Hi There!"/>

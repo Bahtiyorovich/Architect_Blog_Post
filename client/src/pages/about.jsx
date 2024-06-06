@@ -4,7 +4,7 @@ import TabCard   from '../components/tabs'
 
 const AboutMe = () => {
   return (
-    <div className='flex items-center justify-center gap-x-16 h-screen py-80 w-full'>
+    <div id="about" className='flex items-center justify-center gap-x-16 h-screen py-80 w-full'>
       <AboutImageCard/>
       <TabCard/>
     </div>

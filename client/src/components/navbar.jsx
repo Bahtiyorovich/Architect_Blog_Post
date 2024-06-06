@@ -27,23 +27,20 @@ const Navbar = () => {
           <a href="#">
             <li className={scrolling ? "text-white" : `text-teal-800`}>Home</li>
           </a>
-          <a href="#">
+          <a href="#about">
             <li className={scrolling ? "text-white" : `text-teal-800`}>About</li>
           </a>
-          <a href="#">
-            <li className={scrolling ? "text-white" : `text-teal-800`}>Services</li>
+          <a href="#service">
+            <li>Services</li>
           </a>
-          <a href="#">
+          <a href="#portfolio">
             <li>Portfolio</li>
           </a>
-          <a href="#">
+          <a href="#pricing">
             <li>Pricing</li>
           </a>
-          <a href="#">
+          <a href="#post">
             <li>Blog</li>
-          </a>
-          <a href="#">
-            <li>Contact</li>
           </a>
         </ul>
       </div>

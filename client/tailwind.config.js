@@ -11,8 +11,9 @@ module.exports = withMT({
   theme: {
     extend: {
       backgroundImage: {
-        'fon': "url('./src/assets/fon.svg')",
-        'hero-image': "url('./src/assets/user.png')",
+        'fon': "url('/img/assets/fon.svg')",
+        'hero-image': "url('/img/assets/user.png')",
+        'portfolio': "url('/img/assets/portfolio.jpg)"
       }
     },
     backgroundSize: {

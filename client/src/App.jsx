@@ -1,6 +1,7 @@
 import {Card} from '@material-tailwind/react';
-import { AboutMe, Home, Services } from './pages';
+import { AboutMe, BlogPost, Home, Portfolio, Pricing, Services, MyFooter } from './pages';
 import { Navbar } from './components';
+// import Testimonials from './pages/testimonials';
 
 const App = () => {
   return (
@@ -11,6 +12,11 @@ const App = () => {
       </div>
       <AboutMe/>
       <Services/>
+      <Portfolio/>
+      {/* <Testimonials/> */}
+      <BlogPost/>
+      <Pricing/>
+      <MyFooter/>
     </Card>
   )
 }
